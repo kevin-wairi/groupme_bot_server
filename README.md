@@ -134,6 +134,14 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 Distributed under the MIT License. See  `LICENSE.txt`  for more information
 
+## Contact
+
+[](https://github.com/kevin-wairi/groupme_bot_server/blob/main/#contact)
+
+Kevin Wairi - [kevinwairi@gmail.com](mailto:email@example.com)
+
+Project Link:  [https://github.com/kevin-wairi/groupme_bot_server](https://github.com/kevin-wairi/groupme_bot_server)
+
 ### Troubleshooting
 
 -   **Windows Firewall**: Ensure that your firewall allows Ruby to run, and if necessary, open port 3000 for HTTP traffic.
