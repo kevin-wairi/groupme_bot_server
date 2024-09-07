@@ -8,9 +8,8 @@ Before installing the application, ensure you have the following installed:
 
 1.  **Ruby** (version 2.6.0 or higher)
 2.  **Rails** (version 6.0 or higher)
-3.  **SQLite3** (or any other database management system of your choice)
-4.  **Git**
-5.  **Bundler**
+3.  **Git**
+4.  **Bundler**
 
 ### Installation Steps
 
@@ -28,13 +27,7 @@ Copy code
 
 `ruby -v` 
 
-#### 2. Install SQLite3
-
-SQLite3 is often used as a database for Rails applications in development mode. Download it from the SQLite3 website and follow the instructions for setting it up on Windows.
-
-Add SQLite3 to your system’s environment variables for easier access via command line.
-
-#### 3. Install Rails
+#### 2. Install Rails
 
 If you don’t already have Rails installed, run the following command in your terminal to install it via `gem`:
 
@@ -52,7 +45,7 @@ Copy code
 
 `rails -v` 
 
-#### 4. Clone the Repository
+#### 3. Clone the Repository
 
 Clone the repository of the GroupMe bot server:
 
@@ -63,7 +56,7 @@ Copy code
 `git clone https://github.com/kevin-wairi/groupme_bot_server.git
 cd groupme_bot_server` 
 
-#### 5. Install Dependencies
+#### 4. Install Dependencies
 
 Make sure you have Bundler installed. If not, you can install it using:
 
@@ -81,7 +74,7 @@ Copy code
 
 `bundle install` 
 
-#### 6. Set Up Environment Variables
+#### 5. Set Up Environment Variables
 
 You’ll need to set up environment variables for your GroupMe API keys.
 
@@ -96,7 +89,7 @@ GROUPME_ACCESS_TOKEN=your_access_token`
 
 Replace `your_bot_id` and `your_access_token` with your actual GroupMe bot credentials.
 
-#### 8. Run the Server
+#### 6. Run the Server
 
 Start the Rails server using:
 
